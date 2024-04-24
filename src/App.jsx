@@ -1,18 +1,17 @@
+
 import FinanceDashboard from "./components/FinanceDashboard"
-import Header from "./components/Header"
-
-
-
+import SideBar from "./components/SideBar";
 function App() {
  
-
   return (
     <>
-   
-      <Header/>
-      <FinanceDashboard/>
+      <div className=" flex">
+        
+       <div className=""><FinanceDashboard/></div>
+      
+      </div>
     </>
   )
 }
 
-export default App
+export default App;
