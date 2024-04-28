@@ -91,4 +91,11 @@ export const ObjDetails = {
     
   }
 
+  export const UserPostss = [
+    {
+      content: 'Video',
+      timing: '15 mins',
+      numberOfLikes: '12 likes'
+    }
+  ]
  

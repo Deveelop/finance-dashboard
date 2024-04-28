@@ -3,6 +3,7 @@ import { VisitStat } from "./visistate"
 import Header from "./Header"
 import Chart from "./Chart"
 import SpentTime from "./SpentTime"
+import UserPosts from "./UserPosts"
 const FinanceDashboard = () => {
   return (
     <div className="">
@@ -21,9 +22,9 @@ const FinanceDashboard = () => {
         <div className=" mt-10">
         <Chart/>
         </div>
-         <div className="">
+         <div className=" flex gap-10 ">
         <SpentTime/>
-        <h1>hellooooooo</h1>
+        <UserPosts/>
         </div>
         
       </div>
