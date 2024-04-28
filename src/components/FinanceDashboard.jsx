@@ -12,8 +12,8 @@ const FinanceDashboard = () => {
       <div className="">
         <div className=" flex justify-between mt-10 ">
          {
-          VisitStat.map((recs) => (
-           <StatsBox key={recs.altrec} {...recs} />
+          VisitStat.map((recs, id) => (
+           <StatsBox key={id} {...recs} />
           
           ))
          }
@@ -22,7 +22,7 @@ const FinanceDashboard = () => {
         <div className=" mt-10">
         <Chart/>
         </div>
-         <div className=" flex gap-10 ">
+         <div className=" flex gap-10 mb-20 ">
         <SpentTime/>
         <UserPosts/>
         </div>

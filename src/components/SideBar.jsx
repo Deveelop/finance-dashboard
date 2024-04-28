@@ -1,10 +1,10 @@
-import {BsPeople, BsPersonWorkspace, BsCashCoin, BsPhone } from 'react-icons/bs'
+import { FaHome, FaSignal, FaComment, FaWallet } from 'react-icons/fa'
 
 const  SideBar = () => {
   return (
-    <nav className='fixed left-0 top-0 w-[200px] h-screen flex '>
+    <nav className='fixed left-0 top-0 w-[200px] h-screen md:flex hidden '>
             <figure className="w-[70%] h-full pb-4 bg-[#012E6D] ">
-                <div className="flex justify-between p-4 pl-3 mt-1 border-b-2 border-gray-400 text-white">
+                <div className="flex justify-between p-4 pl-3 mt-1  text-white">
                     <li  className=' bg-white rounded'>
                     <span >
                     <img src='/company_logo.png' alt='company' className=' w-10'/>
@@ -17,34 +17,32 @@ const  SideBar = () => {
                    
 
                     <li  className='flex flex-col text-white'>
-                        <p className="font-md text-[--col] p-3">{/**/} </p>
+                       
                         <div
-            className="flex place-items-center p-3 hover:bg-[#3f6eb1] border-b-[1px] font-thin">
-            <span className='text-white'><BsPeople/></span>
-            <p className=' cursor-pointer ml-3 '>About Us </p>
+            className="flex place-items-center p-3 font-thin">
+            <span className='text-white'><FaHome/></span>
         </div>
-                    </li>
+        </li>
                     <li className='flex flex-col text-white'>
                     <div
-            className="flex place-items-center p-3 hover:bg-[#3f6eb1] border-b-[1px] font-thin">
-            <span className='text-white'><BsPersonWorkspace/></span>
-            <p className=' cursor-pointer ml-3 '>Service</p>
+            className="flex place-items-center p-3 font-thin">
+            <span className='text-white'><FaSignal/></span>
         </div>
           
         </li>
                     <li className='flex flex-col text-white'>
                     <div
-            className="flex place-items-center p-3 hover:bg-[#3f6eb1] border-b-[1px] font-thin">
-            <span className='text-white'><BsCashCoin/></span>
-            <p className=' cursor-pointer ml-3 '>Portfolio</p>
+            className="flex place-items-center p-3 font-thin">
+            <span className='text-white'><FaComment/></span>
+            
         </div>
          
         </li>
                     <li className='flex flex-col text-white'>
                     <div
-            className="flex place-items-center p-3 hover:bg-[#3f6eb1] border-b-[1px] font-thin">
-            <span className='text-white'><BsPhone/></span>
-            <p className=' cursor-pointer ml-3 '>Contact Us</p>
+            className="flex place-items-center p-3 font-thin">
+            <span className='text-white'><FaWallet/></span>
+           
         </div>
         </li>
 

@@ -21,8 +21,8 @@ const Chart = () => {
     <FilterCmp/>
     <div className=" mt-10  text-center flex justify-around h-[10rem] ">
       {
-        chartDataPoints.map((points) => (
-       <ChartBar label={points.label} />
+        chartDataPoints.map((points, id) => (
+       <ChartBar key={id} label={points.label} />
         ))
       }
     </div>

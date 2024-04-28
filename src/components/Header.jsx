@@ -25,7 +25,7 @@ const Header = () => {
                     <span className='bg-red-600  absolute top-1 right-1 rounded-full flex items-center justify-center w-3 h-3' /> 
                 </div>
           
-           <img src='/photo' alt='user'/>
+           <img src='/veepht.jpg' className='w-10 rounded-[50%] h-12 border' alt='user'/>
         </div>
         </div>
         </div>

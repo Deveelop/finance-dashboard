@@ -18,8 +18,8 @@ const UserPosts = () => {
 
             <div className=" mb-5">
            {
-            UserPostss.map((posts) => (
-              <div className=" flex gap-4">
+            UserPostss.map((posts, id) => (
+              <div key={id} className=" flex gap-4">
               <span className=" flex items-center gap-2"><FaPlayCircle className=" text-[#4826b9]"/><span>{posts.content}</span></span>
               <span className=" flex items-center gap-2"><FaClock className=" text-[#4c93f0]"/><span>{posts.timing}</span></span>
               <span className=" flex items-center gap-2"><FaStar className=" text-[red]"/><span>{posts.numberOfLikes}</span></span>
