@@ -14,6 +14,10 @@ const UserPosts = () => {
         </div>
         <div className=" title">
             <h2>How to properly manage your personal budget?</h2>
+            <div>
+                <span>icon</span>
+                <span>icon</span>
+            </div>
         </div>
       </div>
     </div>
